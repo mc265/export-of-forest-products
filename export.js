@@ -18,7 +18,13 @@ var formattedData = data.map(function (point) {
         title: {
             text: 'Industrial Roundwood'
         },
-
+    
+      xAxis: {
+            type: 'datetime',
+            labels: {
+              format: '{value:%Y}'
+            }
+        },
         series: [{
             name: 'Export quantity',
             data: data,
