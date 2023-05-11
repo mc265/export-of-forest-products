@@ -29,7 +29,8 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/data/main/IRW%20expo
             name: 'Export quantity',
             data: data,
             tooltip: {
-                valueDecimals: 0
+                valueDecimals: 0,
+               valueSuffix: 'm3'
             }
         }]
     });
