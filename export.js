@@ -14,7 +14,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/data/main/IRW%20expo
       rangeSelector: {
     buttons: [{
         type: 'year',
-        count: 1,
+        count: 5,
         text: '1year',
         events: {
             click: function() {
@@ -48,7 +48,10 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/data/main/IRW%20expo
     
       xAxis: {
             type: 'datetime',
-            crosshair:false
+            crosshair:false,
+         labels: {
+              format: '{value:%Y}'
+            }
         },
         series: [{
             name: 'Export quantity',
