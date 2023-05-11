@@ -1,7 +1,10 @@
 
 Highcharts.getJSON('https://raw.githubusercontent.com/mc265/data/main/IRW%20export.json, function (data) {
   
-  
+  var formattedData = data.map(function (point) {
+    var date = new Date(point[0]);
+    return [Date.UTC(date.getFullYear(), 0, 1), point[1]];
+  });
 
      
 
