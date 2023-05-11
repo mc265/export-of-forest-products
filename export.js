@@ -1,5 +1,5 @@
 
-Highcharts.getJSON('https://raw.githubusercontent.com/mc265/data/main/IRW%20export.json', function (data) {
+Highcharts.getJSON('https://raw.githubusercontent.com/mc265/data/main/convertcsv.json', function (data) {
   
   var formattedData = data.map(function (point) {
     var date = new Date(point[0]);
@@ -49,8 +49,9 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/data/main/IRW%20expo
       xAxis: {
             type: 'datetime',
          labels: {
-              format: '{value:%T}'
+              format: '{value:%Y}'
             }
+         
         },
         series: [{
             name: 'Export quantity',
