@@ -50,6 +50,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/data/main/convertcsv
             type: 'datetime',
          labels: {
               format: '{value:%Y}'
+           display:false
             }
          
         },
