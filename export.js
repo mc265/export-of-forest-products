@@ -49,7 +49,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/data/main/IRW%20expo
       xAxis: {
             type: 'datetime',
          labels: {
-              format: '{value:%M}'
+              format: '{value:%T}'
             }
         },
         series: [{
