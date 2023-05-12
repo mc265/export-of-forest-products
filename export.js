@@ -56,7 +56,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
         },
         series: [{
             name: 'Export quantity',
-            data: data,
+            data: formattedData,
             tooltip: {
                 valueDecimals: 0,
                valueSuffix: 'm3'
