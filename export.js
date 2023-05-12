@@ -12,15 +12,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
     Highcharts.stockChart('container', {
        
       rangeSelector: {
-    buttons: [{
-        type: 'year',
-        count: 1,
-        text: '1year',
-    }, {
-        type: 'year',
-        count: 3,
-        text: '3years'
-    }, {
+    buttons: [ {
         type: 'year',
         count: 5,
         text: '5years'
