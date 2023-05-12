@@ -14,13 +14,8 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
       rangeSelector: {
     buttons: [{
         type: 'year',
-        count: 5,
+        count: 1,
         text: '1year',
-        events: {
-            click: function() {
-                alert('Clicked button');
-            }
-        }
     }, {
         type: 'year',
         count: 3,
@@ -29,10 +24,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
         type: 'year',
         count: 5,
         text: '5years'
-    }, {
-        type: 'ytd',
-        text: 'YTD'
-    }, {
+    },  {
         type: 'year',
         count: 10,
         text: '10years'
