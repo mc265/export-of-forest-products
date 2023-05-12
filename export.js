@@ -35,7 +35,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
 },
 
         title: {
-            text: 'Industrial Roundwood'
+            text: 'EXPORT OF FOREST PRODUCTS'
         },
     
       xAxis: {
