@@ -22,20 +22,20 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
             }
         }
     }, {
-        type: 'month',
+        type: 'year',
         count: 3,
-        text: '3m'
+        text: '3years'
     }, {
-        type: 'month',
-        count: 6,
-        text: '6m'
+        type: 'year',
+        count: 5,
+        text: '5years'
     }, {
         type: 'ytd',
         text: 'YTD'
     }, {
         type: 'year',
-        count: 1,
-        text: '1y'
+        count: 10,
+        text: '10years'
     }, {
         type: 'all',
         text: 'All'
