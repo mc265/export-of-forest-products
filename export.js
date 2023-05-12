@@ -50,7 +50,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
             type: 'datetime',
          labels: {
               format: '{value:%Y}'
-           display:false
+          
             }
          
         },
