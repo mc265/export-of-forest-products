@@ -28,7 +28,7 @@ enabled:false
 },
 
         title: {
-            text: 'EXPORT OF FOREST PRODUCTS'
+            text: 'Wood fuel export quantity'
         },
     
       xAxis: {
