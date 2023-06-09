@@ -39,7 +39,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
          
         },
         series: [{
-            name: 'Export quantity',
+            name: 'Wood fuel',
             data: formattedData,
             tooltip: {
                 valueDecimals: 0,
