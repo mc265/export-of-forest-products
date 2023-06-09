@@ -11,20 +11,20 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
     // Create the chart
     Highcharts.stockChart('container', {
        
-      rangeSelector: {
-   // buttons: [ {
+     rangeSelector: {
+    //buttons: [ {
      //   type: 'year',
-     //  count: 5,
-     //   text: '5years'
+      //  count: 5,
+       // text: '5years'
   //  },  {
-    //    type: 'year',
-     //   count: 10,
-    //    text: '10years'
+      //  type: 'year',
+      //  count: 10,
+     //   text: '10years'
    // }, {
-   //    type: 'all',
+    //    type: 'all',
     //    text: 'All'
-    //}]
-        enabled:false
+  //  }]
+enabled:false
 },
 
         title: {
