@@ -24,6 +24,7 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
         type: 'all',
         text: 'All'
     }]
+        enabled:false
 },
 
         title: {
