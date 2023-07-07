@@ -1,4 +1,5 @@
 
+
 Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-products/main/wood%20fuel%20export.json', function (data) {
   
   var formattedData = data.map(function (point) {
@@ -31,13 +32,20 @@ enabled:false
             text: 'Wood fuel export quantity'
         },
     
-      xAxis: {
-            type: 'datetime',
-         labels: {
-              format: '{value:%Y}'
-          
+       xAxis: {
+            type: 'date ',
+            title: {
+            enabled: true,
+            text: 'Year'
             }
+        },
+        
          
+         yAxis: {
+          title:{
+            enabled:true,
+            text: 'm3'
+          }
         },
         series: [{
             name: 'Wood fuel',
