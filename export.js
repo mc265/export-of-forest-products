@@ -44,7 +44,7 @@ enabled:false
          yAxis: {
           title:{
             enabled:true,
-            text: 'm3'
+            text: 'cubic meters(m3)'
           }
         },
         series: [{
