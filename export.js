@@ -28,8 +28,8 @@ Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-pro
 enabled:false
 },
 
-         title: {
-            text: 'Forest Product Exports 1961-2021'
+        title: {
+            text: 'Forest Product Exports 1961-2021',
 	       align: 'left'
         },
         subtitle: {
